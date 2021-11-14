@@ -31,6 +31,15 @@ namespace Project_2.Controllers
 			ViewBag.Message = "Please.";
 
 			return View();
+
 		}
+		public ActionResult Login()
+		{
+			ViewBag.Message = "Please.";
+
+			return View();
+
+		}
+
 	}
 }
