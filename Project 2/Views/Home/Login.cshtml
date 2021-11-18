@@ -6,22 +6,33 @@
 
 <html>
 <head>
+	<link rel="stylesheet" href="~/Content/Loginform.css"/>
     <meta name="viewport" content="width=device-width" />
     <title></title>
 </head>
 <body>
-	<div class="container-fluid">
-		<h1>Login</h1>
-	</div>
-	<div>
-		<div class="form-group">
-			<label for="usr">Name:</label>
-			<input type="text" class="form-control" id="usr">
+
+	<div id="loginbox">
+		<div class="loginboxInside">
+			<div>
+				<h1>Login</h1>
+				<i class="fa fa-user fa-4x"></i>
+			</div>
+			<div class="form-group">
+				<label for="usr">Name:</label>
+				<input type="text" class="form-control" id="usr">
+			</div>
+			<div class="form-group">
+				<label for="pwd">Password:</label>
+				<input type="password" class="form-control" id="pwd">
+			</div>
+			<div>
+				<button type="submit">Login</button>
+				<label><input type="checkbox" />Remember me</label>
+			</div>
 		</div>
-		<div class="form-group">
-			<label for="pwd">Password:</label>
-			<input type="password" class="form-control" id="pwd">
-		</div>
+
 	</div>
+
 </body>
 </html>

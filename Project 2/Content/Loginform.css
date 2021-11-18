@@ -1,0 +1,15 @@
+﻿body {
+	background-color:aqua;
+}
+#loginbox{
+	border: 2px solid black;
+	width: 50%;
+	height: 50%;
+	position: center;
+	margin-left:25%;
+	margin-right:25%;
+}
+.loginboxInside{
+	position: relative;
+	padding: 10%;
+}
