@@ -1,15 +1,17 @@
 ﻿body {
-	background-color:aqua;
+	background-color: yellow;
 }
 #loginbox{
-	border: 2px solid black;
+	border: 1px solid black;
 	width: 50%;
 	height: 50%;
 	position: center;
-	margin-left:25%;
-	margin-right:25%;
+	margin: 2% 25% 0% 25%;
 }
 .loginboxInside{
 	position: relative;
-	padding: 10%;
+	margin: 10px 20% 25% 25%;
+}
+.txtalign{
+	text-align:center;
 }
