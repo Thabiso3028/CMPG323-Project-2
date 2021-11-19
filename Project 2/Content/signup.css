@@ -1,0 +1,9 @@
+﻿body {
+}
+#signupbox {
+	border: 1px solid black;
+	width: 50%;
+	height: 50%;
+	position: center;
+	margin: 2% 25% 0% 25%;
+}
