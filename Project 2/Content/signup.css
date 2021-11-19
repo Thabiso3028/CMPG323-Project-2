@@ -7,3 +7,11 @@
 	position: center;
 	margin: 2% 25% 0% 25%;
 }
+.signupInside {
+	position: relative;
+	margin: 10px 20% 25% 25%;
+}
+
+.txtalign {
+	text-align: center;
+}
