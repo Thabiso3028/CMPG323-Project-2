@@ -9,7 +9,7 @@
           <Key>
             <PropertyRef Name="UserId" />
           </Key>
-          <Property Name="UserId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UserId" Type="int" Nullable="false" />
           <Property Name="UserFName" Type="nvarchar" MaxLength="30" />
           <Property Name="UserLName" Type="nvarchar" MaxLength="30" />
           <Property Name="Email" Type="nvarchar" MaxLength="50" />
@@ -27,13 +27,13 @@
           <Key>
             <PropertyRef Name="UserId" />
           </Key>
-          <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserId" Type="Int32" Nullable="false" />
           <Property Name="UserFName" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
           <Property Name="UserLName" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
           <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="Password" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
         </EntityType>
-        <EntityContainer Name="AlbumEntities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="AlbumEntities1" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="UserDetails" EntityType="Self.UserDetail" />
         </EntityContainer>
       </Schema>
@@ -41,7 +41,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="AlbumModelStoreContainer" CdmEntityContainer="AlbumEntities">
+        <EntityContainerMapping StorageEntityContainer="AlbumModelStoreContainer" CdmEntityContainer="AlbumEntities1">
           <EntitySetMapping Name="UserDetails">
             <EntityTypeMapping TypeName="AlbumModel.UserDetail">
               <MappingFragment StoreEntitySet="UserDetails">

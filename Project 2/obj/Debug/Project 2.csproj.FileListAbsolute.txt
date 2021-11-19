@@ -156,3 +156,7 @@ C:\Users\Nhlul\Desktop\Project 2\CMPG323-Project-2\Project 2\obj\Debug\Project 2
 C:\Users\Nhlul\Desktop\Project 2\CMPG323-Project-2\Project 2\obj\Debug\Project 2.csproj.CopyComplete
 C:\Users\Nhlul\Desktop\Project 2\CMPG323-Project-2\Project 2\obj\Debug\Project 2.dll
 C:\Users\Nhlul\Desktop\Project 2\CMPG323-Project-2\Project 2\obj\Debug\Project 2.pdb
+C:\Users\Acer\Desktop\CMPG323-Project-2\Project 2\bin\EntityFramework.dll
+C:\Users\Acer\Desktop\CMPG323-Project-2\Project 2\bin\EntityFramework.SqlServer.dll
+C:\Users\Acer\Desktop\CMPG323-Project-2\Project 2\bin\EntityFramework.xml
+C:\Users\Acer\Desktop\CMPG323-Project-2\Project 2\bin\EntityFramework.SqlServer.xml

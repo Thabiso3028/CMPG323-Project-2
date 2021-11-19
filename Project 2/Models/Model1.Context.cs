@@ -13,10 +13,10 @@ namespace Project_2.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class AlbumEntities : DbContext
+    public partial class AlbumEntities1 : DbContext
     {
-        public AlbumEntities()
-            : base("name=AlbumEntities")
+        public AlbumEntities1()
+            : base("name=AlbumEntities1")
         {
         }
     
