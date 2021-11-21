@@ -1,16 +1,16 @@
 ﻿
 @{
-    ViewBag.Title = "Index";
+	ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
 
-Welcome @HttpContext.Current.UserDetail.Identity.Name
+Welcome @HttpContext.Current.User.Identity.Name
 
-@if(Request.IsAuthenticated)
+@if (Request.IsAuthenticated)
 {
-	using(Html.BeginForm("Logout", "User", FormMethod.Post, new { id="logoutForm"}))
+	using (Html.BeginForm("Logout", "User", FormMethod.Post, new { id = "logoutForm" }))
 	{
-		<a href="javascript.document.getElementById("logoutForm")">Logout</a>
+		<a href="javascript.document.getElementById('logoutForm').submit()">Logout</a>
 	}
 }
+

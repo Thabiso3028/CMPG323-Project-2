@@ -13,5 +13,11 @@ namespace Project_2___CMPG323.Controllers
         {
             return View();
         }
+      
+        public ActionResult About()
+		{
+            return View();
+		}
+
     }
 }
