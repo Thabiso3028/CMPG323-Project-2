@@ -5,7 +5,7 @@
 }
 
 <head>
-	<link href="~/Content/myStyle.css" type="text/css" />
+	<link href="~/Content/myStyle.css" type="text/css" rel="stylesheet"/>
 </head>
 
 
@@ -24,10 +24,11 @@ else
 	{
 		@Html.AntiForgeryToken()
 
-<div class="myStyle">
-	using (Html.BeginForm())
-	{
-	//@Html.AntiForgeryToken()
+		using (Html.BeginForm())
+		{
+			//@Html.AntiForgeryToken()
+			
+<div class="login_div">
 	<h2>Registration</h2>
 	<div class="form-horizontal">
 		<hr />
@@ -87,25 +88,25 @@ else
 			</div>
 		</div>
 	</div>
-
-	if (ViewBag.Message != null)
-	{
-	<div class="alert alert-danger">
-		<strong>Error has occured</strong>@ViewBag.Message
+	<div>
+		@Html.ActionLink("Already have an Account? Click to Login", "Login")
 	</div>
-	}
+
+	@section Scripts{
+		<script src="~/Scripts/jquery.validate.min.js"></script>
+		<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
 	}
 </div>
+
+			if (ViewBag.Message != null)
+			{
+				<div class="alert alert-danger">
+					<strong>Error has occured</strong>@ViewBag.Message
+				</div>
+			}
+		}
 	}
 }
 
 
 
-<div>
-	@Html.ActionLink("Already have an Account? Click to Login", "Login")
-</div>
-
-@section Scripts{
-	<script src="~/Scripts/jquery.validate.min.js"></script>
-	<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
-}
