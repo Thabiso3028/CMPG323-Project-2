@@ -11,11 +11,15 @@ namespace Project_2___CMPG323.Models
 {
     using System;
     using System.Collections.Generic;
-    
-    public partial class Image
+	using System.ComponentModel;
+    using System.Web;
+
+	public partial class Image
     {
         public int ImageId { get; set; }
         public string Title { get; set; }
+        [DisplayName("Upload File")]
         public string Path { get; set; }
+        public HttpPostedFileBase ImageFile { get; set; }
     }
 }
