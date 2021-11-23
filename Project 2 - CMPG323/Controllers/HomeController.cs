@@ -20,7 +20,7 @@ namespace Project_2___CMPG323.Controllers
 		{
             return View();
 		}
-<<<<<<< Updated upstream
+
         [HttpPost]
         public ActionResult Add(Image image)
         {
@@ -38,14 +38,14 @@ namespace Project_2___CMPG323.Controllers
             ModelState.Clear();
             return View();
         }
-=======
+
 
         [HttpPost]
         public ActionResult Registration()
-        {
+        {   
             return View();
         }
 
->>>>>>> Stashed changes
+
     }
 }
