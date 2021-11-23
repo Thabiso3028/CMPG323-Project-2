@@ -9,7 +9,7 @@
     <script src="~/Scripts/modernizr-2.8.3.js"></script>
 </head>
 <body>
-	<div class="navbar navbar-fixed-top navbar-dark bg-primary">
+	<div class="navbar navbar-fixed-top navbar-dark bg-dark">
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -22,21 +22,23 @@
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">
 					<li>@Html.ActionLink("Home", "Index", "Home")</li>
+					<li>@Html.ActionLink("Registration", " Registration", "Home")</li>
+					<li>@Html.ActionLink("Login", "Login", "Home")</li>
 				</ul>
 			</div>
 		</div>
 	</div>
 
-	<div class="container body-content">
-		@RenderBody()
-		<hr />
-		<!--<footer>
-		<p>&copy; @DateTime.Now.Year - Photo Album</p>
-	</footer>-->
-	</div>
+	@RenderBody()
 
-    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
-    <script src="~/Scripts/bootstrap.min.js"></script>
-    @RenderSection("Scripts", false)
+	<!--<div class="container body-content">
+		<hr />
+		<footer>
+			<p>&copy; @DateTime.Now.Year - Photo Album</p>
+		</footer>
+	</div>-->
+	<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+	<script src="~/Scripts/bootstrap.min.js"></script>
+	@RenderSection("Scripts", false)
 </body>
 </html>
