@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\Nhlul\Source\Repos\CMPG323-Project-2\Project 2 - CMPG323\Models\DBModel.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\Nhlul\Desktop\Project 2\CMPG323-Project-2-main\CMPG323-Project-2-main\Project 2 - CMPG323\Models\DBModel.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

@@ -128,6 +128,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\AdobeStock_116671774_Preview.jpeg" />
     <Content Include="App_Data\Album.mdf" />
     <Content Include="App_Data\Album_log.ldf">
       <DependentUpon>Album.mdf</DependentUpon>
@@ -360,6 +361,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Image\Add.cshtml" />
+    <Content Include="Views\Image\View.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

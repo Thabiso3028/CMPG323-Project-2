@@ -21,16 +21,18 @@ namespace Project_2___CMPG323.Controllers
             string fileName = Path.GetFileNameWithoutExtension(image.ImageFile.FileName);
             string extension = Path.GetExtension(image.ImageFile.FileName);
             fileName = fileName + DateTime.Now.ToString("yymmssfff") + extension;
-            image.Path = "~/Image/" + fileName;
+            image.ImagePath = "~/Image/" + fileName;
             fileName = Path.Combine(Server.MapPath("~/Image/"), fileName);
             image.ImageFile.SaveAs(fileName);
             using (DBModels db = new DBModels())
-            {
+			{
                 db.Images.Add(image);
                 db.SaveChanges();
-            }
+			}
             ModelState.Clear();
-                return View();
+            return View();
         }
+       
+        
     }
 }

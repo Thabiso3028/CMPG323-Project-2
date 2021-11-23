@@ -1,4 +1,7 @@
 ﻿body {
+	background-image: url(AdobeStock_116671774_Preview.jpeg);
+	background-repeat: repeat;
+	background-color: #cccccc;
 }
 .login_div{
 	position: absolute;

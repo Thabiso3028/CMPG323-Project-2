@@ -4,9 +4,9 @@
     <EntitySetMapping Name="Images">
       <EntityTypeMapping TypeName="AlbumModel1.Image">
         <MappingFragment StoreEntitySet="Image">
-          <ScalarProperty Name="ImageId" ColumnName="ImageId" />
+          <ScalarProperty Name="ImageID" ColumnName="ImageID" />
           <ScalarProperty Name="Title" ColumnName="Title" />
-          <ScalarProperty Name="Path" ColumnName="Path" />
+          <ScalarProperty Name="ImagePath" ColumnName="ImagePath" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

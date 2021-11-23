@@ -1,13 +1,13 @@
 ﻿@model Project_2___CMPG323.Models.Image
 
 @{
-    ViewBag.Title = "Add";
+    ViewBag.Title = "Upload Image";
 }
 
-<h2>Upload File</h2>
+<h2>Add</h2>
 
 
-@using (Html.BeginForm("Add","Image", FormMethod.Post, new { enctype = "multipart/form-data"}))
+@using (Html.BeginForm("Add", "Image", FormMethod.Post, new { enctype = "multipart/form-data"}))
 {
     @Html.AntiForgeryToken()
     
@@ -24,10 +24,10 @@
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.Path, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-               <input type="file" name="ImageFile" required >
-            </div>
+            @Html.LabelFor(model => model.ImagePath, htmlAttributes: new { @class = "control-label col-md-2" })
+			<div class="col-md-10">
+				<input type="file" name=" ImageFile" required>
+			</div>
         </div>
 
         <div class="form-group">

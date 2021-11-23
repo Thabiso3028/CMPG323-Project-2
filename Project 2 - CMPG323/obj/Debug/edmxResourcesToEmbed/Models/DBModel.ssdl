@@ -2,11 +2,11 @@
 <Schema Namespace="AlbumModel1.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
   <EntityType Name="Image">
     <Key>
-      <PropertyRef Name="ImageId" />
+      <PropertyRef Name="ImageID" />
     </Key>
-    <Property Name="ImageId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ImageID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Title" Type="varchar" MaxLength="250" />
-    <Property Name="Path" Type="varchar(max)" />
+    <Property Name="ImagePath" Type="varchar(max)" />
   </EntityType>
   <EntityType Name="UserDetails">
     <Key>
